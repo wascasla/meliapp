@@ -1,0 +1,55 @@
+.card-product-detail{
+  border-bottom: thin solid #eee;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  background: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .description {
+    margin-top: 2em;
+    width: 55em;
+    padding-left: 2em;
+
+    .description-title {
+      font-size: 24px;
+      font-weight: 500;
+      text-align: left;
+      margin-bottom: 1em;
+    }
+  
+    .description-item {
+      text-align: left;
+    }
+  }
+
+
+  .item-info {
+    text-align: left;
+    padding-right: 2em;
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    .price {
+      font-size: 40px;
+      font-weight: 400;
+      margin-bottom: 1.5em;
+    }
+
+    .button {
+      width: 100%;
+      color: white;
+      border: none;
+      background-color: blue;
+      border-radius: 3px;
+      height: 2em;
+      font-size: 20px;
+    }
+  }
+}

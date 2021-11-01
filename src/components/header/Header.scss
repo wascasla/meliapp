@@ -1,0 +1,34 @@
+.header {
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+    
+    .nav-logo {
+      background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.16.2/mercadolibre/logo__large_plus.png);
+      height: 34px;
+      top: 11px;
+      width: 134px;
+      margin-right: 0.5em;
+    }  
+
+    .input {
+      border: none;
+      height: 39px;
+      width: 75em;
+    }
+
+    .button {
+      height: 41px;
+      border: none;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .app-lupa {
+      height: 12px;
+      width: 25px;
+    }
+  }
+}

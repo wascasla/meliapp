@@ -1,0 +1,10 @@
+.detail-container{
+  margin: auto;
+  max-width: 1200px; 
+
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
